@@ -2,8 +2,8 @@ package org.src.tester.login;
 
 public class Company {
 public static void main(String[] args) {
-	System.out.println("compilation");
-	System.out.println("error");
+	int a[]=new int[10];
+	a[0]=1;
 	a[1]=2;
 	a[2]=3;
 	a[3]=4;
@@ -18,8 +18,8 @@ public static void main(String[] args) {
 for(int i=0; i<10; i++) {
 	System.err.println(a[i]);
 }
-int sum=a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9];
-System.err.println("enter the sum of values:" +sum);
+//int sum=a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9];
+//System.err.println("enter the sum of values:" +sum);
 
 }
 }
