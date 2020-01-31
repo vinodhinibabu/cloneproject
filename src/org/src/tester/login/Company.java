@@ -2,8 +2,8 @@ package org.src.tester.login;
 
 public class Company {
 public static void main(String[] args) {
-	System.out.println("compilation");
-	System.out.println("error");
+	int a[]=new int[10];
+	a[0]=1;
 	a[1]=2;
 	a[2]=3;
 	a[3]=4;
